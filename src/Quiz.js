@@ -70,7 +70,7 @@ class Quiz extends React.Component {
 
       let doorStyle = "flip-card is-closed_" + this.state.quizId;
 
-      let buttonVisibility = !this.state.canOpen ? "btn shadow-none" : "btn shadow-none invisible";
+      let buttonVisibility = this.state.canOpen ? "btn shadow-none" : "btn shadow-none invisible";
       let doorNumberStyle = "door-number";
 
       if(this.state.isSolved){
