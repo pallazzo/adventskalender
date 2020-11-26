@@ -25,8 +25,6 @@ import img_14_2 from './img/img_14_2.png';
 import img_17_1 from './img/img_17_1.png';
 import img_17_2 from './img/img_17_2.png';
 
-import img_20_1 from './img/img_20_1.jpeg';
-
 import img_22_1 from './img/img_22_1.png';
 import img_22_2 from './img/img_22_2.png';
 
@@ -146,7 +144,6 @@ question_20 =
 <div >
 <p className="card-text">Zwei Wächter.<br/>Der eine schaut nur Richtung Norden.<br/>Der andere schaut nur Richtung Süden.<br/>Beide kommunizieren nicht.<br/>Kein Geräusch, keine Geste, kein Spiegel, kein Wasser.</p>
 <p className="card-text">Plötzlich sagt der eine:</p>
-<img src={img_20_1} alt="Tag 20" className="quizImage"/>
 <p className="card-text">Woher weiß er das?</p>
 </div>;
 
