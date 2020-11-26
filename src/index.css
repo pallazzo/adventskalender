@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap');
+
+body {
+  margin: 0;
+  background-color:#000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.title-heading{
+  font-family: 'Texturina', serif;
+  margin: 48px;
+}
+
+.door{ margin-bottom: 25px;}
+.door-number{
+  font-family: 'Texturina', serif;
+  margin-right: 18px;
+}
+
+.is-closed_1{background-image: url("img/doors/1.png");}
+.is-closed_2{background-image: url("img/doors/2.png");}
+.is-closed_3{background-image: url("img/doors/3.png");}
+.is-closed_4{background-image: url("img/doors/4.png");}
+.is-closed_5{background-image: url("img/doors/5.png");}
+.is-closed_6{background-image: url("img/doors/6.png");}
+.is-closed_7{background-image: url("img/doors/7.png");}
+.is-closed_8{background-image: url("img/doors/8.png");}
+.is-closed_9{background-image: url("img/doors/9.png");}
+.is-closed_10{background-image: url("img/doors/10.png");}
+.is-closed_11{background-image: url("img/doors/11.png");}
+.is-closed_12{background-image: url("img/doors/12.png");}
+.is-closed_13{background-image: url("img/doors/13.png");}
+.is-closed_14{background-image: url("img/doors/14.png");}
+.is-closed_15{background-image: url("img/doors/15.png");}
+.is-closed_16{background-image: url("img/doors/16.png");}
+.is-closed_17{background-image: url("img/doors/17.png");}
+.is-closed_18{background-image: url("img/doors/18.png");}
+.is-closed_19{background-image: url("img/doors/19.png");}
+.is-closed_20{background-image: url("img/doors/20.png");}
+.is-closed_21{background-image: url("img/doors/21.png");}
+.is-closed_22{background-image: url("img/doors/22.png");}
+.is-closed_23{background-image: url("img/doors/23.png");}
+.is-closed_24{background-image: url("img/doors/24.png");}
+
+.is-closed_25{background-image: url("img/doors/25.png");}
+.is-closed_26{background-image: url("img/doors/26.png");}
+.is-closed_27{background-image: url("img/doors/27.png");}
+
+.is-solved_1{background-image: url("img/doors/1_solved.png");}
+.is-solved_2{background-image: url("img/doors/2_solved.png");}
+.is-solved_3{background-image: url("img/doors/3_solved.png");}
+.is-solved_4{background-image: url("img/doors/4_solved.png");}
+.is-solved_5{background-image: url("img/doors/5_solved.png");}
+.is-solved_6{background-image: url("img/doors/6_solved.png");}
+.is-solved_7{background-image: url("img/doors/7_solved.png");}
+.is-solved_8{background-image: url("img/doors/8_solved.png");}
+.is-solved_9{background-image: url("img/doors/9_solved.png");}
+.is-solved_10{background-image: url("img/doors/10_solved.png");}
+.is-solved_11{background-image: url("img/doors/11_solved.png");}
+.is-solved_12{background-image: url("img/doors/12_solved.png");}
+.is-solved_13{background-image: url("img/doors/13_solved.png");}
+.is-solved_14{background-image: url("img/doors/14_solved.png");}
+.is-solved_15{background-image: url("img/doors/15_solved.png");}
+.is-solved_16{background-image: url("img/doors/16_solved.png");}
+.is-solved_17{background-image: url("img/doors/17_solved.png");}
+.is-solved_18{background-image: url("img/doors/18_solved.png");}
+.is-solved_19{background-image: url("img/doors/19_solved.png");}
+.is-solved_20{background-image: url("img/doors/20_solved.png");}
+.is-solved_21{background-image: url("img/doors/21_solved.png");}
+.is-solved_22{background-image: url("img/doors/22_solved.png");}
+.is-solved_23{background-image: url("img/doors/23_solved.png");}
+.is-solved_24{background-image: url("img/doors/24_solved.png");}
+
+.is-solved_25{background-image: url("img/doors/25_solved.png");}
+.is-solved_26{background-image: url("img/doors/26_solved.png");}
+.is-solved_27{background-image: url("img/doors/27_solved.png");}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+ width: 300px;
+ height: 500px;
+ color: #415d43;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ transition: transform 0.8s;
+ transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-flip .flip-card-inner {
+ transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ -webkit-backface-visibility: hidden; /* Safari */
+ backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  padding:18px;
+ background-color: #fff;
+ color: black;
+}
+
+.flip-card-front-transparent {
+ background: transparent;
+ color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+ background-color: #fff;
+ color: black;
+ transform: rotateY(180deg);
+}
+
+.button-panel{
+  width: 300px;
+  padding-top:4px;
+}
