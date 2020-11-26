@@ -35,7 +35,7 @@ let answer_1, answer_2, answer_3, answer_4, answer_5, answer_6, answer_7, answer
 
 // -----------------------------------01---------------------------------//
 question_1 =  <div>
-                <p className="card-text">Ersetzen Sie die Symbole durch Ziffern, sodass jede Rechnung stimmt.</p>
+                <p className="card-text">Ersetze die Symbole durch Ziffern, sodass jede Rechnung stimmt.</p>
                 <p className="card-text">Es ist möglich, dass es mehrere Lösungen gibt.</p>
                 <p className="card-text font-weight-bold">Wie viele gibt es denn?</p>
                 <p className="text-center"><img src={img_01_1} alt="Aufgabe Tag 1"/></p>
@@ -46,7 +46,7 @@ answer_1 =    <div>
               </div>
 // -----------------------------------02---------------------------------//
 question_2 =  <div>
-                <p className="card-text">Sehen Sie sich den Stadtplan eine Minute an und prägen Sie sich so viele Einzelheiten wie möglich ein! Sie müssen dann einige Fragen beantworten.</p>
+                <p className="card-text">Sieh dir den Stadtplan eine Minute an und präge dir so viele Einzelheiten wie möglich ein! Du musst dann einige Fragen beantworten.</p>
                 <p className="text-center"><img src={img_02_1} alt="Aufgabe Tag 2"/></p>
               </div>;
 answer_2 =    <div>
@@ -73,8 +73,8 @@ answer_3 =    <div>
 
 // -----------------------------------04---------------------------------//
 question_4 =  <div>
-                <p className="card-text">Sie sollen aus drei Teilen ein Viereck mit 16 Kästchen legen.</p>
-                <p className="card-text font-weight-bold">Welches der vier abgebildeten Elemente können Sie dafür nicht verwenden?</p>
+                <p className="card-text">Du sollst aus drei Teilen ein Viereck mit 16 Kästchen legen.</p>
+                <p className="card-text font-weight-bold">Welches der vier abgebildeten Elemente kannst du dafür nicht verwenden?</p>
                 <p className="text-center"><img src={img_04_1} alt="Aufgabe Tag 4"/></p>
               </div>;
 answer_4 =    <div>
@@ -285,15 +285,6 @@ export function Question(quizId) {
     case 24:
       result = question_24;
       break;
-      case 25:
-        result = question_25;
-        break;
-        case 26:
-          result = question_26;
-          break;
-          case 27:
-            result = question_27;
-            break;
     default:
       result = '';
 
@@ -377,15 +368,6 @@ export function Answer(quizId) {
     case 24:
       result = answer_24;
       break;
-      case 25:
-        result = answer_25;
-        break;
-        case 26:
-          result = answer_26;
-          break;
-          case 27:
-            result = answer_27;
-            break;
     default:
       result = '';
   }

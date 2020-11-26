@@ -14,16 +14,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.title-heading{
-  font-family: 'Texturina', serif;
-  margin: 48px;
-}
 
-.door{ margin-bottom: 25px;}
-.door-number{
-  font-family: 'Texturina', serif;
-  margin-right: 18px;
-}
 
 .is-closed_1{background-image: url("img/doors/1.png");}
 .is-closed_2{background-image: url("img/doors/2.png");}
@@ -50,10 +41,6 @@ code {
 .is-closed_23{background-image: url("img/doors/23.png");}
 .is-closed_24{background-image: url("img/doors/24.png");}
 
-.is-closed_25{background-image: url("img/doors/25.png");}
-.is-closed_26{background-image: url("img/doors/26.png");}
-.is-closed_27{background-image: url("img/doors/27.png");}
-
 .is-solved_1{background-image: url("img/doors/1_solved.png");}
 .is-solved_2{background-image: url("img/doors/2_solved.png");}
 .is-solved_3{background-image: url("img/doors/3_solved.png");}
@@ -79,9 +66,20 @@ code {
 .is-solved_23{background-image: url("img/doors/23_solved.png");}
 .is-solved_24{background-image: url("img/doors/24_solved.png");}
 
-.is-solved_25{background-image: url("img/doors/25_solved.png");}
-.is-solved_26{background-image: url("img/doors/26_solved.png");}
-.is-solved_27{background-image: url("img/doors/27_solved.png");}
+
+
+.title-heading{
+  font-family: 'Texturina', serif;
+  margin: 48px;
+  color: #415d43;
+}
+
+.door{ margin-bottom: 25px;}
+.door-number{
+  font-family: 'Texturina', serif;
+  margin-right: 18px;
+}
+
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -116,7 +114,7 @@ code {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  padding:18px;
+ padding:18px;
  background-color: #fff;
  color: black;
 }
@@ -128,6 +126,7 @@ code {
 
 /* Style the back side */
 .flip-card-back {
+ padding:18px;
  background-color: #fff;
  color: black;
  transform: rotateY(180deg);
@@ -136,4 +135,7 @@ code {
 .button-panel{
   width: 300px;
   padding-top:4px;
+}
+.button-panel button{
+    color: #415d43;
 }
