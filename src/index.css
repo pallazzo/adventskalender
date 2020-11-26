@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Texturina:wght@900&display=swap');
 
 body {
   margin: 0;
@@ -70,14 +71,28 @@ code {
 
 .title-heading{
   font-family: 'Texturina', serif;
-  margin: 48px;
+  margin-top: 48px;
+  color: #415d43;
+}
+
+.sub-title{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 48px;
   color: #415d43;
 }
 
 .door{ margin-bottom: 25px;}
+
 .door-number{
   font-family: 'Texturina', serif;
   margin-right: 18px;
+  color: #415d43;
+}
+
+.door-number-solved{
+  font-family: 'Texturina', serif;
+  margin-right: 18px;
+  color: #AE5620 !important;
 }
 
 
@@ -85,7 +100,6 @@ code {
 .flip-card {
  width: 300px;
  height: 500px;
- color: #415d43;
 }
 
 /* This container is needed to position the front and back side */
@@ -136,6 +150,9 @@ code {
   width: 300px;
   padding-top:4px;
 }
-.button-panel button{
-    color: #415d43;
+.btn{
+    color: #9FC9A3 !important;
+}
+.solved{
+    color: #E5AB81 !important;
 }

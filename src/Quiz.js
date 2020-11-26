@@ -69,16 +69,21 @@ class Quiz extends React.Component {
   render() {
 
       let doorStyle = "flip-card is-closed_" + this.state.quizId;
+
+      let buttonVisibility = !this.state.canOpen ? "btn shadow-none" : "btn shadow-none invisible";
+      let doorNumberStyle = "door-number";
+
       if(this.state.isSolved){
         doorStyle = "flip-card is-solved_" + this.state.quizId;
+        buttonVisibility += " solved";
+        doorNumberStyle = "door-number-solved";
       }
-      let buttonVisibility = !this.state.canOpen ? "btn shadow-none" : "btn shadow-none invisible";
       let closed =
       <div>
         <div className={doorStyle}>
           <div className="flip-card-inner">
             <div className= "flip-card-transparent text-right">
-              <h1 className="card-heading door-number">{this.state.date.getDate()}</h1>
+              <h1 className={doorNumberStyle}>{this.state.date.getDate()}</h1>
             </div>
           </div>
         </div>

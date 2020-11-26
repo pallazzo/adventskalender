@@ -17,6 +17,7 @@ class App extends React.Component {
           <div className="row d-flex justify-content-center">
             <div className="text-center">
               <h1 className="title-heading">Adventskalender</h1>
+              <p className="sub-title">Von Barbara und Henri</p>
             </div>
           </div>
           <div className="row d-flex justify-content-between">
