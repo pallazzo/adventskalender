@@ -25,6 +25,9 @@ import img_14_2 from './img/img_14_2.png';
 import img_17_1 from './img/img_17_1.png';
 import img_17_2 from './img/img_17_2.png';
 
+import img_18_1 from './img/img_18_1.png';
+import img_18_2 from './img/img_18_2.png';
+
 import img_22_1 from './img/img_22_1.png';
 import img_22_2 from './img/img_22_2.png';
 
@@ -47,7 +50,7 @@ question_2 =  <div>
                 <p className="card-text">Sieh dir den Stadtplan eine Minute an und präge dir so viele Einzelheiten wie möglich ein! Du musst dann einige Fragen beantworten.</p>
                 <p className="text-center"><img src={img_02_1} alt="Aufgabe Tag 2"/></p>
               </div>;
-answer_2 =    <div>
+answer_2 =    <div className="text-left">
                 <p className="card-text">Beantworte folgende Fragen:</p>
                 <ol>
                   <li>Wie kommt man von der Kobe Schule zum Rathaus?</li>
@@ -58,14 +61,12 @@ answer_2 =    <div>
               </div>
 // -----------------------------------03---------------------------------//
 question_3 =  <div>
-                <p className="card-text">Hier geht es um die Erkennung gleicher Strukturen.</p>
-                <p className="card-text">Zwei der abgebildeten Quadrate sind gleich.</p>
-                <p className="card-text"><i>Achtung: </i>Sie können auch gedreht sein.</p>
-                <p className="card-text font-weight-bold">Um welche beiden handelt es sich?</p>
+                <p className="card-text">Oje! Deine Weihnachtstanne hat vorzeitig sämtliche Nadeln verloren, und nun erhältst du vom Weihnachtsmann die Aufgabe, innerhalb einer Viertelstunde die Anzahl der auf dem Fliesenboden verstreut liegenden Nadeln zu ermitteln.</p>
+                <p className="card-text font-weight-bold">Wie kann dir das gelingen?</p>
                 <p className="text-center"><img src={img_03_1} alt="Aufgabe Tag 3"/></p>
               </div>;
 answer_3 =    <div>
-                <p className="card-text">Die Quadrate 1 und 5 sind gleich. Dabei ist Nummer 5 um 180° gedreht.</p>
+                <p className="card-text">Ein durchschnittlicher Tannenbaum hat mehrere Hunderttausend Nadeln; sie einzeln zu zählen würde viel länger als eine Viertelstunde dauern. Geh deshalb folgendermaßen vor: Zähle 100 Nadeln ab und wiege diese, um das Durchschnittsgewicht pro Nadel zu erhalten. Lege anschließend alle Nadeln auf die Waage und teile das Gesamtgewicht durch das vorher ermittelte Durchschnittsgewicht einer Nadel.</p>
                 <p className="text-center"><img src={img_03_2} alt="Lösung Tag 3"/></p>
               </div>
 
@@ -138,6 +139,18 @@ answer_17 =    <div>
                 <p className="card-text">Nr. 2 ist das nächste Symbol.</p>
                 <p className="card-text">Die Symbole werden immer um 90° nach links gedreht.</p>
                 <p className="text-center"><img src={img_17_2} alt="Lösung Tag 17"/></p>
+              </div>
+// -----------------------------------18---------------------------------//
+question_18 =  <div>
+                <p className="card-text">Hier geht es um die Erkennung gleicher Strukturen.</p>
+                <p className="card-text">Zwei der abgebildeten Quadrate sind gleich.</p>
+                <p className="card-text"><i>Achtung: </i>Sie können auch gedreht sein.</p>
+                <p className="card-text font-weight-bold">Um welche beiden handelt es sich?</p>
+                <p className="text-center"><img src={img_03_1} alt="Aufgabe Tag 3"/></p>
+              </div>;
+answer_18 =    <div>
+                <p className="card-text">Die Quadrate 1 und 5 sind gleich. Dabei ist Nummer 5 um 180° gedreht.</p>
+                <p className="text-center"><img src={img_03_2} alt="Lösung Tag 3"/></p>
               </div>
 // -----------------------------------20---------------------------------//
 question_20 =
