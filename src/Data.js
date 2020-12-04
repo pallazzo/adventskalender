@@ -10,6 +10,9 @@ import img_03_2 from './img/img_03_2.png';
 import img_04_1 from './img/img_04_1.png';
 import img_04_2 from './img/img_04_2.png';
 
+import img_05_1 from './img/img_05_1.png';
+import img_05_2 from './img/img_05_2.png';
+
 import img_07_1 from './img/img_07_1.png';
 import img_07_2 from './img/img_07_2.png';
 
@@ -80,6 +83,18 @@ answer_4 =    <div>
                 <p className="card-text">Das Viereck kann nur aus den Elementen 1, 2, und 4 gelegt werden.</p>
                 <p className="card-text">Element 3 kann nicht dafür verwendet werden.</p>
                 <p className="text-center"><img src={img_04_2} alt="Lösung Tag 4"/></p>
+              </div>
+
+// -----------------------------------05---------------------------------//
+question_5 =  <div>
+                <p className="card-text">Im Einstellungsgespräch für ein Kirchenamt wird dir ein Rätsel aufgegeben: &bdquo;Man findet es am Ende der Welt und am Ende der Zeit. Man findet es vorn an jedem Tempel und am Anfang jeden Tages. Man findet es überall in der Mitte und irgendwo im Nichts.&ldquo;</p>
+                <p className="card-text font-weight-bold">Was ist gemeint?</p>
+                <p className="text-center"><img src={img_05_1} alt="Aufgabe Tag 4"/></p>
+              </div>;
+answer_5 =    <div className="text-left">
+                <p className="card-text">Hat dich der Hinweis auf ein Kirchenamt in die Irre geleitet? Gemeint ist schlicht der Buchstabe &bdquo;t&ldquo;, der am Ende der Wörter &bdquo;Tempel&ldquo; und &bdquo;Tag&ldquo;, in der Mitte des Wortes &bdquo;Mitte&ldquo; sowie an beliebiger Stelle des Wortes &bdquo;Nichts&ldquo; steht.</p>
+                <p className="card-text">Einfach wenn man's weiß, nicht wahr?</p>
+                <p className="text-center"><img src={img_05_2} alt="Lösung Tag 4"/></p>
               </div>
 
 // -----------------------------------07---------------------------------//
