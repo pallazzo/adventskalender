@@ -13,6 +13,9 @@ import img_04_2 from './img/img_04_2.png';
 import img_05_1 from './img/img_05_1.png';
 import img_05_2 from './img/img_05_2.png';
 
+import img_6_1 from './img/img_6_1.png';
+import img_6_2 from './img/img_6_2.png';
+
 import img_07_1 from './img/img_07_1.png';
 import img_07_2 from './img/img_07_2.png';
 
@@ -96,6 +99,16 @@ answer_5 =    <div className="text-left">
                 <p className="card-text">Einfach wenn man's weiß, nicht wahr?</p>
                 <p className="text-center"><img src={img_05_2} alt="Lösung Tag 4"/></p>
               </div>
+// -----------------------------------06---------------------------------//
+question_6 =  <div>
+                <p className="card-text">Du siehst eine Figur aus Streichhölzern.</p>
+                <p className="card-text font-weight-bold">Es sollen nun zwei gleich große Quadrate entstehen.</p>
+                <p className="card-text">Dabei darfst du allerdings nur vier Streichhölzer umlegen.</p>
+                <p className="text-center"><img src={img_6_1} alt="Aufgabe Tag 17"/></p>
+              </div>;
+answer_6 =    <div>
+                <p className="text-center"><img src={img_6_2} alt="Lösung Tag 17"/></p>
+              </div>
 
 // -----------------------------------07---------------------------------//
 question_7 =  <div>
@@ -151,8 +164,6 @@ question_17 =  <div>
                 <p className="text-center"><img src={img_17_1} alt="Aufgabe Tag 17"/></p>
               </div>;
 answer_17 =    <div>
-                <p className="card-text">Nr. 2 ist das nächste Symbol.</p>
-                <p className="card-text">Die Symbole werden immer um 90° nach links gedreht.</p>
                 <p className="text-center"><img src={img_17_2} alt="Lösung Tag 17"/></p>
               </div>
 // -----------------------------------18---------------------------------//
@@ -161,11 +172,11 @@ question_18 =  <div>
                 <p className="card-text">Zwei der abgebildeten Quadrate sind gleich.</p>
                 <p className="card-text"><i>Achtung: </i>Sie können auch gedreht sein.</p>
                 <p className="card-text font-weight-bold">Um welche beiden handelt es sich?</p>
-                <p className="text-center"><img src={img_03_1} alt="Aufgabe Tag 3"/></p>
+                <p className="text-center"><img src={img_18_1} alt="Aufgabe Tag 3"/></p>
               </div>;
 answer_18 =    <div>
                 <p className="card-text">Die Quadrate 1 und 5 sind gleich. Dabei ist Nummer 5 um 180° gedreht.</p>
-                <p className="text-center"><img src={img_03_2} alt="Lösung Tag 3"/></p>
+                <p className="text-center"><img src={img_18_2} alt="Lösung Tag 3"/></p>
               </div>
 // -----------------------------------20---------------------------------//
 question_20 =
