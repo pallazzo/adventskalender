@@ -19,6 +19,9 @@ import img_6_2 from './img/img_6_2.png';
 import img_07_1 from './img/img_07_1.png';
 import img_07_2 from './img/img_07_2.png';
 
+import img_08_1 from './img/img_08_1.png';
+import img_08_2 from './img/img_08_2.png';
+
 import img_09_1 from './img/img_09_1.png';
 import img_09_2 from './img/img_09_2.png';
 
@@ -113,14 +116,28 @@ answer_6 =    <div>
 // -----------------------------------07---------------------------------//
 question_7 =  <div>
 
-                <p className="card-text">Bakterien vermehren sich durch Zellteilung: Aus einer Bakterie entstehen in einer Minute zwei der gleichen Größe. Nach 60 Minuten füllen die Bakterien den gesamten Behälter aus.</p>
-                <p className="card-text font-weight-bold">Wie lange dauert es, bis die Bakterien die Hälfte des Behälters ausfüllen.</p>
+                <p className="card-text">Ein Mann ist zum ersten Mal in Hamburg. Er steht an einer Bushaltestelle. Dort hängt ein Schild: Einzelkarte 50 Cent. Tageskarte 1 Euro.</p>
+                <p className="card-text">Der Mann steigt in den Bus und legt dem Fahrer, ohne ein Wort zu sagen, einen Euro hin. Der Fahrer gibt dem Mann ein Tagesticket. Der bedankt sich mit einem Nicken.</p>
+                <p className="card-text font-weight-bold">Woher wusste der Fahrer, dass der Mann ein Tagesticket und kein Einzelticket wollte?</p>
                 <p className="text-center"><img src={img_07_1} alt="Aufgabe Tag 7"/></p>
               </div>;
 answer_7 =    <div>
+                <p className="card-text">Querdenker lassen sich nicht gerne in die Irre führen. Wenn von einem Euro die Rede ist, sehen die meisten Menschen eine Münze. Querdenker sehen aber zwei Fünzig-Cent-Münzen. Oder fünf Zwanzig-Cent-Münzen.</p>
+                <p className="card-text">Und es ist klar: Wenn ein einzelner Reisender dem Fahrer z.B. zwei Fünfzig-Cent-Münzen gibt, dann will er auf jeden Fall ein Tagesticket.</p>
+                <p className="text-center"><img src={img_07_2} alt="Lösung Tag 7"/></p>
+              </div>
+
+// -----------------------------------08---------------------------------//
+question_8 =  <div>
+
+                <p className="card-text">Bakterien vermehren sich durch Zellteilung: Aus einer Bakterie entstehen in einer Minute zwei der gleichen Größe. Nach 60 Minuten füllen die Bakterien den gesamten Behälter aus.</p>
+                <p className="card-text font-weight-bold">Wie lange dauert es, bis die Bakterien die Hälfte des Behälters ausfüllen.</p>
+                <p className="text-center"><img src={img_08_1} alt="Aufgabe Tag 7"/></p>
+              </div>;
+answer_8 =    <div>
                 <p className="card-text">Nach 59 Minuten füllen die Bakterien die Hälfte des Behälters aus.</p>
                 <p className="card-text">Die Lösung erhält man, indem man zurückrechnet: Nach 60 Minuten füllen die Bakterien den gesamten Behälter aus. Eine Minute vorher (also nach 59 Minuten) füllen sie die Hälfte aus, denn wenn sie sich in der letzten Minute verdopplen, füllen sie dann den ganzen Behälter aus.</p>
-                <p className="text-center"><img src={img_07_2} alt="Lösung Tag 7"/></p>
+                <p className="text-center"><img src={img_08_2} alt="Lösung Tag 7"/></p>
               </div>
 
 // -----------------------------------09---------------------------------//
