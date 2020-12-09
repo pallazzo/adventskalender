@@ -25,6 +25,10 @@ import img_08_2 from './img/img_08_2.png';
 import img_09_1 from './img/img_09_1.png';
 import img_09_2 from './img/img_09_2.png';
 
+import img_10_1 from './img/img_10_1.png';
+import img_10_2 from './img/img_10_2.png';
+import img_10_3 from './img/img_10_3.png';
+
 import img_11_1 from './img/img_11_1.png';
 import img_11_2 from './img/img_11_2.png';
 
@@ -53,7 +57,7 @@ question_1 =  <div>
 answer_1 =    <div>
                 <p className="card-text">Es gibt vier Lösungen, wobei allerdings die Zahlen der ersten Zeile und der ersten Spalte gleich bleiben.</p>
                 <p className="text-center"><img src={img_01_2} alt="Lösung Tag 1"/></p>
-              </div>
+              </div>;
 // -----------------------------------02---------------------------------//
 question_2 =  <div>
                 <p className="card-text">Sieh dir den Stadtplan eine Minute an und präge dir so viele Einzelheiten wie möglich ein! Du musst dann einige Fragen beantworten.</p>
@@ -67,7 +71,7 @@ answer_2 =    <div className="text-left">
                   <li>Wie viele Straßenbrücken gibt es über die Wandse?</li>
                   <li>Beschreibe wie man von der Hemreihe zum Pösselweg kommt.</li>
                 </ol>
-              </div>
+              </div>;
 // -----------------------------------03---------------------------------//
 question_3 =  <div>
                 <p className="card-text">Oje! Deine Weihnachtstanne hat vorzeitig sämtliche Nadeln verloren, und nun erhältst du vom Weihnachtsmann die Aufgabe, innerhalb einer Viertelstunde die Anzahl der auf dem Fliesenboden verstreut liegenden Nadeln zu ermitteln.</p>
@@ -77,7 +81,7 @@ question_3 =  <div>
 answer_3 =    <div>
                 <p className="card-text">Ein durchschnittlicher Tannenbaum hat mehrere Hunderttausend Nadeln; sie einzeln zu zählen würde viel länger als eine Viertelstunde dauern. Geh deshalb folgendermaßen vor: Zähle 100 Nadeln ab und wiege diese, um das Durchschnittsgewicht pro Nadel zu erhalten. Lege anschließend alle Nadeln auf die Waage und teile das Gesamtgewicht durch das vorher ermittelte Durchschnittsgewicht einer Nadel.</p>
                 <p className="text-center"><img src={img_03_2} alt="Lösung Tag 3"/></p>
-              </div>
+              </div>;
 
 // -----------------------------------04---------------------------------//
 question_4 =  <div>
@@ -89,29 +93,29 @@ answer_4 =    <div>
                 <p className="card-text">Das Viereck kann nur aus den Elementen 1, 2, und 4 gelegt werden.</p>
                 <p className="card-text">Element 3 kann nicht dafür verwendet werden.</p>
                 <p className="text-center"><img src={img_04_2} alt="Lösung Tag 4"/></p>
-              </div>
+              </div>;
 
 // -----------------------------------05---------------------------------//
 question_5 =  <div>
                 <p className="card-text">Im Einstellungsgespräch für ein Kirchenamt wird dir ein Rätsel aufgegeben: &bdquo;Man findet es am Ende der Welt und am Ende der Zeit. Man findet es vorn an jedem Tempel und am Anfang jeden Tages. Man findet es überall in der Mitte und irgendwo im Nichts.&ldquo;</p>
                 <p className="card-text font-weight-bold">Was ist gemeint?</p>
-                <p className="text-center"><img src={img_05_1} alt="Aufgabe Tag 4"/></p>
+                <p className="text-center"><img src={img_05_1} alt="Aufgabe Tag 5"/></p>
               </div>;
 answer_5 =    <div className="text-left">
                 <p className="card-text">Hat dich der Hinweis auf ein Kirchenamt in die Irre geleitet? Gemeint ist schlicht der Buchstabe &bdquo;t&ldquo;, der am Ende der Wörter &bdquo;Tempel&ldquo; und &bdquo;Tag&ldquo;, in der Mitte des Wortes &bdquo;Mitte&ldquo; sowie an beliebiger Stelle des Wortes &bdquo;Nichts&ldquo; steht.</p>
                 <p className="card-text">Einfach wenn man's weiß, nicht wahr?</p>
-                <p className="text-center"><img src={img_05_2} alt="Lösung Tag 4"/></p>
-              </div>
+                <p className="text-center"><img src={img_05_2} alt="Lösung Tag 5"/></p>
+              </div>;
 // -----------------------------------06---------------------------------//
 question_6 =  <div>
                 <p className="card-text">Du siehst eine Figur aus Streichhölzern.</p>
                 <p className="card-text font-weight-bold">Es sollen nun zwei gleich große Quadrate entstehen.</p>
                 <p className="card-text">Dabei darfst du allerdings nur vier Streichhölzer umlegen.</p>
-                <p className="text-center"><img src={img_6_1} alt="Aufgabe Tag 17"/></p>
+                <p className="text-center"><img src={img_6_1} alt="Aufgabe Tag 6"/></p>
               </div>;
 answer_6 =    <div>
-                <p className="text-center"><img src={img_6_2} alt="Lösung Tag 17"/></p>
-              </div>
+                <p className="text-center"><img src={img_6_2} alt="Lösung Tag 6"/></p>
+              </div>;
 
 // -----------------------------------07---------------------------------//
 question_7 =  <div>
@@ -125,20 +129,20 @@ answer_7 =    <div>
                 <p className="card-text">Querdenker lassen sich nicht gerne in die Irre führen. Wenn von einem Euro die Rede ist, sehen die meisten Menschen eine Münze. Querdenker sehen aber zwei Fünzig-Cent-Münzen. Oder fünf Zwanzig-Cent-Münzen.</p>
                 <p className="card-text">Und es ist klar: Wenn ein einzelner Reisender dem Fahrer z.B. zwei Fünfzig-Cent-Münzen gibt, dann will er auf jeden Fall ein Tagesticket.</p>
                 <p className="text-center"><img src={img_07_2} alt="Lösung Tag 7"/></p>
-              </div>
+              </div>;
 
 // -----------------------------------08---------------------------------//
 question_8 =  <div>
 
                 <p className="card-text">Bakterien vermehren sich durch Zellteilung: Aus einer Bakterie entstehen in einer Minute zwei der gleichen Größe. Nach 60 Minuten füllen die Bakterien den gesamten Behälter aus.</p>
                 <p className="card-text font-weight-bold">Wie lange dauert es, bis die Bakterien die Hälfte des Behälters ausfüllen.</p>
-                <p className="text-center"><img src={img_08_1} alt="Aufgabe Tag 7"/></p>
+                <p className="text-center"><img src={img_08_1} alt="Aufgabe Tag 8"/></p>
               </div>;
 answer_8 =    <div>
                 <p className="card-text">Nach 59 Minuten füllen die Bakterien die Hälfte des Behälters aus.</p>
                 <p className="card-text">Die Lösung erhält man, indem man zurückrechnet: Nach 60 Minuten füllen die Bakterien den gesamten Behälter aus. Eine Minute vorher (also nach 59 Minuten) füllen sie die Hälfte aus, denn wenn sie sich in der letzten Minute verdopplen, füllen sie dann den ganzen Behälter aus.</p>
-                <p className="text-center"><img src={img_08_2} alt="Lösung Tag 7"/></p>
-              </div>
+                <p className="text-center"><img src={img_08_2} alt="Lösung Tag 8"/></p>
+              </div>;
 
 // -----------------------------------09---------------------------------//
 question_9 =  <div>
@@ -149,7 +153,22 @@ question_9 =  <div>
 answer_9 =    <div>
                 <p className="card-text">Element Nr. 2 ist in der Linie enthalten.</p>
                 <p className="text-center"><img src={img_09_2} alt="Lösung Tag 9"/></p>
-              </div>
+              </div>;
+              // -----------------------------------10---------------------------------//
+question_10 =  <div>
+                <p className="card-text font-weight-bold">1) Was wird kürzer, je länger man daran zieht?</p>
+                <p className="text-center"><img src={img_10_1} alt="Aufgabe Tag 10_1"/></p>
+                <p className="card-text font-weight-bold">2) Welche Richtung ist auf jeden Fall tödlich?</p>
+                <p className="text-center"><img src={img_10_2} alt="Aufgabe Tag 10_2"/></p>
+                <p className="card-text font-weight-bold">3) Warum tragen alle Waldarbeiter gelb-grün-karierte Hosenträger?</p>
+                <p className="text-center"><img src={img_10_3} alt="Aufgabe Tag 10_3"/></p>
+              </div>;
+answer_10 =    <div>
+                <p className="card-text">Na, habt ihr es gewusst?</p>
+                <p className="card-text font-weight-bold">1) Es ist die Zigarre/Zigarette</p>
+                <p className="card-text font-weight-bold">2) Es ist die Hin-Richtung</p>
+                <p className="card-text font-weight-bold">3) Damit ihre Hosen nicht rutschen!</p>
+              </div>;
 
 // -----------------------------------11---------------------------------//
 question_11 =  <div>
