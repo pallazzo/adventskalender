@@ -156,3 +156,7 @@ code {
 .solved{
     color: #E5AB81 !important;
 }
+
+.large-number{
+    font-size: 150%;
+}

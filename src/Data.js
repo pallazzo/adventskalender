@@ -32,6 +32,10 @@ import img_10_3 from './img/img_10_3.png';
 import img_11_1 from './img/img_11_1.png';
 import img_11_2 from './img/img_11_2.png';
 
+import img_12_1 from './img/img_12_1.png';
+
+import img_13_1 from './img/img_13_1.png';
+
 import img_14_1 from './img/img_14_1.png';
 import img_14_2 from './img/img_14_2.png';
 
@@ -179,12 +183,35 @@ question_11 =  <div>
 answer_11 =    <div>
                 <p className="card-text">Nur aus der Bastelanleitung <b>3</b> kann man den abgebildeten Würfel basteln.</p>
                 <p className="text-center"><img src={img_11_2} alt="Lösung Tag 11"/></p>
-              </div>
+              </div>;
+
+// -----------------------------------12---------------------------------//
+question_12 =  <div>
+                <p className="card-text">Shakespeare starb am 23. April 1616 in Stratford-upon-Avon. Cervantes, der Schöpfer von Don Quichotte, starb am 23. April 1616 in Madrid.</p>
+                <p className="card-text font-weight-bold">Wie konnte einer von des anderen Tod erfahren?</p>
+                <p className="text-center"><img src={img_12_1} alt="Aufgabe Tag 12"/></p>
+              </div>;
+answer_12 =    <div>
+                <p className="card-text">Als Cervantes starb, galt in Spanien seit 1582 die Gregorianische Kalenderrechnung (Papst Gregor XIII.). Doch in England zählte noch bis 1752 der Julianische Kalender. Der Unterschied zwischen beiden betrug damals zehn Tage. Heute sind es übrigens 13 Tage.</p>
+                <p className="card-text">Somit hatte Shakespeare, als Cervantes starb, noch zehn Tage zu leben. Und er hätte - theoretisch - per Brief benachrichtigt werden können.</p>
+              </div>;
+
+// -----------------------------------13---------------------------------//
+question_13 =  <div>
+                <p className="card-text font-weight-bold">Finde die Regel, nach der die rechte Zahl aus der linken ausgerechnet wird. Ergänze dann die letzte Zahl auf der rechten Seite.</p>
+                <p className="text-center"><img src={img_13_1} alt="Aufgabe Tag 13"/></p>
+              </div>;
+answer_13 =    <div>
+                <p className="card-text">Die Regel lautet:<br/>Die linke Zahl wird mit 7 multipliziert und dann wird 1 addiert.</p>
+                <p className="card-text">Die gesuchte Zahl heißt:</p>
+                <p className="card-text font-weight-bold large-number"> 22</p>
+              </div>;
+
 // -----------------------------------14---------------------------------//
 question_14 =  <div>
                 <p className="card-text">Hier ist eine Reihe von Symbolen angeordnet.</p>
-                <p className="card-text">Finden Sie das nächste Symbol!</p>
-                <p className="card-text font-weight-bold">Wählen Sie dazu aus der zweiten Reihe das richtige aus.</p>
+                <p className="card-text">Finde das nächste Symbol!</p>
+                <p className="card-text font-weight-bold">Wähle dazu aus der zweiten Reihe das richtige aus.</p>
                 <p className="text-center"><img src={img_14_1} alt="Aufgabe Tag 14"/></p>
               </div>;
 answer_14 =    <div>
