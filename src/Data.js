@@ -39,6 +39,8 @@ import img_13_1 from './img/img_13_1.png';
 import img_14_1 from './img/img_14_1.png';
 import img_14_2 from './img/img_14_2.png';
 
+import img_15_1 from './img/img_15_1.png';
+
 import img_17_1 from './img/img_17_1.png';
 import img_17_2 from './img/img_17_2.png';
 
@@ -218,7 +220,20 @@ answer_14 =    <div>
                 <p className="card-text">Nr. 2 ist das nächste Symbol.</p>
                 <p className="card-text">Die Symbole werden immer um 90° nach links gedreht.</p>
                 <p className="text-center"><img src={img_14_2} alt="Lösung Tag 14"/></p>
-              </div>
+              </div>;
+              // -----------------------------------14---------------------------------//
+question_15 =  <div>
+                <p className="card-text">Dromedar ja. <br/> Kamel nein.</p>
+                <p className="card-text">Dämmungsmaterial nein. <br/> Sparisolation ja.</p>
+                <p className="card-text">Magenfreundlich ja. <br/> Magenschonend nein.</p>
+                <p className="card-text">Bistrovorhänge nein. <br/> Bistrojalousien ja.</p>
+                <p className="card-text font-weight-bold">Welches gemeinsame Muster weisen alle Ja-Wörter auf?</p>
+
+              </div>;
+answer_15 =    <div>
+                <p className="card-text">Worte können ein Innenleben führen! In den Ja-Wörtern entdeckt ihr die Städte Rom, Paris, Genf und Troja.</p>
+                <p className="text-center"><img src={img_15_1} alt="Lösung Tag 15"/></p>
+              </div>;
 // -----------------------------------17---------------------------------//
 question_17 =  <div>
                 <p className="card-text">Sie sehen eine Figur aus Streichhölzern.</p>
