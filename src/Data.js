@@ -41,6 +41,9 @@ import img_14_2 from './img/img_14_2.png';
 
 import img_15_1 from './img/img_15_1.png';
 
+import img_16_1 from './img/img_16_1.png';
+import img_16_2 from './img/img_16_2.png';
+
 import img_17_1 from './img/img_17_1.png';
 import img_17_2 from './img/img_17_2.png';
 
@@ -221,7 +224,7 @@ answer_14 =    <div>
                 <p className="card-text">Die Symbole werden immer um 90° nach links gedreht.</p>
                 <p className="text-center"><img src={img_14_2} alt="Lösung Tag 14"/></p>
               </div>;
-              // -----------------------------------14---------------------------------//
+              // -----------------------------------15---------------------------------//
 question_15 =  <div>
                 <p className="card-text">Dromedar ja. <br/> Kamel nein.</p>
                 <p className="card-text">Dämmungsmaterial nein. <br/> Sparisolation ja.</p>
@@ -234,16 +237,20 @@ answer_15 =    <div>
                 <p className="card-text">Worte können ein Innenleben führen! In den Ja-Wörtern entdeckt ihr die Städte Rom, Paris, Genf und Troja.</p>
                 <p className="text-center"><img src={img_15_1} alt="Lösung Tag 15"/></p>
               </div>;
-// -----------------------------------17---------------------------------//
-question_17 =  <div>
-                <p className="card-text">Sie sehen eine Figur aus Streichhölzern.</p>
-                <p className="card-text font-weight-bold">Es sollen nun zwei gleich große Quadrate entstehen.</p>
-                <p className="card-text">Dabei dürfen Sie allerdings nur vier Streichhölzer umlegen.</p>
-                <p className="text-center"><img src={img_17_1} alt="Aufgabe Tag 17"/></p>
+              // -----------------------------------16---------------------------------//
+question_16 =  <div>
+                <p className="card-text">Es ist Montagmorgen, so gegen acht Uhr. Ein verkaterter Politiker steht auf und geht ins Bad.</p>
+                <p className="card-text">Nach dem Rasieren schaut er in den Spiegel. Sofort ist ihm klar, dass er heute noch zurücktreten muss.</p>
+                <p className="card-text font-weight-bold">Wieso weiß er das?</p>
+                <p className="text-center"><img src={img_16_1} alt="Aufgabe Tag 16"/></p>
+
               </div>;
-answer_17 =    <div>
-                <p className="text-center"><img src={img_17_2} alt="Lösung Tag 17"/></p>
-              </div>
+answer_16 =    <div>
+                <p className="card-text">Im Text ist hier nicht der Spiegel im Badezimmer gemeint, sondern das Magazin SPIEGEL. Und das berichtet gerade ausführlich darüber, wie gerne sich unser Poitiker mit Urlaubsreisen bestechen lässt. </p>
+                <p className="text-center"><img src={img_16_2} alt="Lösung Tag 16"/></p>
+              </div>;
+// -----------------------------------17---------------------------------//
+
 // -----------------------------------18---------------------------------//
 question_18 =  <div>
                 <p className="card-text">Hier geht es um die Erkennung gleicher Strukturen.</p>
@@ -255,7 +262,7 @@ question_18 =  <div>
 answer_18 =    <div>
                 <p className="card-text">Die Quadrate 1 und 5 sind gleich. Dabei ist Nummer 5 um 180° gedreht.</p>
                 <p className="text-center"><img src={img_18_2} alt="Lösung Tag 3"/></p>
-              </div>
+              </div>;
 // -----------------------------------20---------------------------------//
 question_20 =
 <div >
