@@ -46,6 +46,7 @@ import img_16_2 from './img/img_16_2.png';
 
 import img_17_1 from './img/img_17_1.png';
 import img_17_2 from './img/img_17_2.png';
+import img_17_3 from './img/img_17_3.png';
 
 import img_18_1 from './img/img_18_1.png';
 import img_18_2 from './img/img_18_2.png';
@@ -250,7 +251,16 @@ answer_16 =    <div>
                 <p className="text-center"><img src={img_16_2} alt="Lösung Tag 16"/></p>
               </div>;
 // -----------------------------------17---------------------------------//
-
+question_17 =  <div>
+                <p className="card-text">Die folgenden Buchstabenreihen sollen ergänzt werden.</p>
+                <p className="text-center"><img src={img_17_1} alt="Aufgabe Tag 17 Teil 1"/></p>
+                <p className="card-text">Beispiel:</p>
+                <p className="card-text font-weight-bold">Finde die nächste Kombination!</p>
+                <p className="text-center"><img src={img_17_2} alt="Aufgabe Tag 17 Teil 2"/></p>
+              </div>;
+answer_17 =    <div>
+                <p className="text-center"><img src={img_17_3} alt="Lösung Tag 17"/></p>
+              </div>;
 // -----------------------------------18---------------------------------//
 question_18 =  <div>
                 <p className="card-text">Hier geht es um die Erkennung gleicher Strukturen.</p>
