@@ -55,6 +55,8 @@ import img_19_1 from './img/img_19_1.png';
 import img_19_2 from './img/img_19_2.png';
 import img_19_3 from './img/img_19_3.png';
 
+import img_20_1 from './img/img_20_1.png';
+
 import img_22_1 from './img/img_22_1.png';
 import img_22_2 from './img/img_22_2.png';
 
@@ -297,18 +299,15 @@ answer_19 =    <div>
 
               </div>;
 // -----------------------------------20---------------------------------//
-question_20 =
-<div >
-<p className="card-text">Zwei Wächter.<br/>Der eine schaut nur Richtung Norden.<br/>Der andere schaut nur Richtung Süden.<br/>Beide kommunizieren nicht.<br/>Kein Geräusch, keine Geste, kein Spiegel, kein Wasser.</p>
-<p className="card-text">Plötzlich sagt der eine:</p>
-<p className="card-text">Woher weiß er das?</p>
-</div>;
-
-answer_20 =
-<div >
-<p className="card-text">Querdenker versetzen sich gerne in die Situation hinein. Die beiden Wächter stehen sich genau gegenüber. Doch die meisten von uns gehen davon aus, dass sie Rücken an Rücken stehen. Weil das ja logischer ist...</p>
-
-</div>;
+question_20 = <div >
+              <p className="card-text">Zwei Wächter.<br/>Der eine schaut nur Richtung Norden. Der andere schaut nur Richtung Süden. Beide kommunizieren nicht. Kein Geräusch, keine Geste, kein Spiegel, kein Wasser.</p>
+              <p className="card-text">Plötzlich sagt der eine:</p>
+              <p className="text-center"><img src={img_20_1} alt="Aufgabe Tag 20"/></p>
+              <p className="card-text">Woher weiß er das?</p>
+              </div>;
+answer_20 =   <div >
+                <p className="card-text">Die beiden Wächter stehen sich genau gegenüber. Doch die meisten von uns gehen davon aus, dass sie Rücken an Rücken stehen. Weil das ja logischer ist...</p>
+              </div>;
 
 // -----------------------------------21---------------------------------//
 question_21 = <div>
