@@ -51,6 +51,10 @@ import img_17_3 from './img/img_17_3.png';
 import img_18_1 from './img/img_18_1.png';
 import img_18_2 from './img/img_18_2.png';
 
+import img_19_1 from './img/img_19_1.png';
+import img_19_2 from './img/img_19_2.png';
+import img_19_3 from './img/img_19_3.png';
+
 import img_22_1 from './img/img_22_1.png';
 import img_22_2 from './img/img_22_2.png';
 
@@ -267,11 +271,30 @@ question_18 =  <div>
                 <p className="card-text">Zwei der abgebildeten Quadrate sind gleich.</p>
                 <p className="card-text"><i>Achtung: </i>Sie können auch gedreht sein.</p>
                 <p className="card-text font-weight-bold">Um welche beiden handelt es sich?</p>
-                <p className="text-center"><img src={img_18_1} alt="Aufgabe Tag 3"/></p>
+                <p className="text-center"><img src={img_18_1} alt="Aufgabe Tag 18"/></p>
               </div>;
 answer_18 =    <div>
                 <p className="card-text">Die Quadrate 1 und 5 sind gleich. Dabei ist Nummer 5 um 180° gedreht.</p>
-                <p className="text-center"><img src={img_18_2} alt="Lösung Tag 3"/></p>
+                <p className="text-center"><img src={img_18_2} alt="Lösung Tag 18"/></p>
+              </div>;
+// -----------------------------------19---------------------------------//
+question_19 =  <div>
+                <p className="card-text font-weight-bold">Was ist ein:</p>
+
+                <p className="card-text">1) eisenhaltiges Abführmittel?</p>
+                <p className="text-center"><img src={img_19_1} alt="Aufgabe Tag 19 Teil 1"/></p>
+
+                <p className="card-text">2) Ort, an dem nur Kellner wohnen?</p>
+                <p className="text-center"><img src={img_19_2} alt="Aufgabe Tag 19 Teil 2"/></p>
+
+                <p className="card-text">3) Ort, an dem himmlische Lebewesen nicht fest sind?</p>
+                <p className="text-center"><img src={img_19_3} alt="Aufgabe Tag 19 Teil 3"/></p>
+              </div>;
+answer_19 =    <div>
+                <p className="card-text">1) ... Handschellen.</p>
+                <p className="card-text">2) ... Oberhausen.</p>
+                <p className="card-text">3) ... Los Angeles.</p>
+
               </div>;
 // -----------------------------------20---------------------------------//
 question_20 =
