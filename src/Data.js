@@ -57,8 +57,17 @@ import img_19_3 from './img/img_19_3.png';
 
 import img_20_1 from './img/img_20_1.png';
 
+import img_21_1 from './img/img_21_1.png';
+import img_21_2 from './img/img_21_2.png';
+
 import img_22_1 from './img/img_22_1.png';
 import img_22_2 from './img/img_22_2.png';
+
+import img_23_1 from './img/img_23_1.png';
+import img_23_2 from './img/img_23_2.png';
+
+import img_24_1 from './img/img_24_1.png';
+
 
 let question_1, question_2, question_3, question_4, question_5, question_6, question_7, question_8, question_9, question_10, question_11, question_12, question_13, question_14, question_15, question_16, question_17, question_18, question_19, question_20, question_21, question_22, question_23, question_24;
 let answer_1, answer_2, answer_3, answer_4, answer_5, answer_6, answer_7, answer_8, answer_9, answer_10, answer_11, answer_12, answer_13, answer_14, answer_15, answer_16, answer_17, answer_18, answer_19, answer_20, answer_21, answer_22, answer_23, answer_24;
@@ -310,48 +319,52 @@ answer_20 =   <div >
               </div>;
 
 // -----------------------------------21---------------------------------//
-question_21 = <div>
-<p>A, B, und C werden des Diebstahls verdächtigt, doch nur einer hat die Tat begangen. Zwei von ihnen sind notorische Lügner, sie sagen nicht die Wahrheit; nur einer ist ehrlich.</p>
-<p>Können Sie dennoch anhand der Aussagen ermittlen, wer von den dreien der Täter ist?</p>
-<ul>
-<li>A: Ich bin unschuldig!</li>
-<li>B: C lügt!</li>
-<li>C: A ist der Täter!</li>
-</ul>
-</div>;
+question_21 = <div >
+              <p className="card-text">Herr Kaiser wohnt im 13. Stock eines Hochhauses. Jeden Tag fährt er morgens mit dem Aufzug ins Erdgeschoss, um zur Arbeit zu gehen. Wenn er abends zurückkommt, fährt er mit dem Aufzug bis in den vierten Stock und benutzt für die restlichen Stockwerke die Treppe. Aber nur, wenn sich keine anderen Personen im Aufzug befinden.</p>
+              <p className="card-text font-weight-bold">Warum tut Herr Kaiser das?</p>
+              <p className="text-center"><img src={img_21_1} alt="Aufgabe Tag 21"/></p>
+              </div>;
 
-answer_21 = <div><p>A ist der Täter, C sagt die Wahrheit.</p>
-          <p>Nehmen wir an, B sei der Dieb, dann wäre sowohl die Aussage von A als auch die von B wahr. Da jedoch nur einer die Wahrheit sagt, kann dies nicht die Lösung sein.</p>
-          <p>Das gleiche gilt, wenn C der gesuchte Täter wäre. Auch hier wären zwei Aussagen - die von A und B - wahr, was nicht sein kann.</p>
-          </div>;
+answer_21 = <div>
+                <p className="card-text">Herr Kaiser ist kleinwüchsig - er reicht im Aufzug nur an die unteren Knöpfe heran.</p>
+                <p className="text-center"><img src={img_21_2} alt="Lösung Tag 21"/></p>
+              </div>;
 // -----------------------------------22---------------------------------//
 question_22 =  <div>
-                <p className="card-text">Sie sehen einen Würfel und eine Drehachse, die durch den Würfel verläuft. Drehen Sie nun den Würfel in Gedanken zweimal um 90° im Uhrzeigersinn.</p>
-                <p className="card-text font-weight-bold">Wie sieht dann der Würfel aus?</p>
-                <p className="card-text">Entscheiden Sie sich für eine der vier Möglichkeiten.</p>
+                <p className="card-text">Vor dir stehen drei verschlossene Kisten. Eine der Kisten enthält nur Äpfel, eine weitere nur Birnen und die dritte sowohl Äpfel als auch Birnen. Auf den Kisten befinden sich die Etiketten &bdquo;Äpfel&ldquo;, &bdquo;Birnen&ldquo; sowie &bdquo;Äpfel und Birnen&ldquo;, jedoch ist jede der Kisten falsch etikettiert. Du darfst, ohne hinzusehen, eine Frucht aus einer der Kisten nehmen. Anschließend sollst du die Kisten korrekt etikettieren.</p>
+                <p className="card-text font-weight-bold">Für welche Kiste entscheidest du dich?</p>
                 <p className="text-center"><img src={img_22_1} alt="Aufgabe Tag 22"/></p>
               </div>;
 answer_22 =    <div>
-                <p className="card-text">Nach zweimaliger Drehung ergibt sich das Bild Nr. 2.</p>
-                <p className="text-center"><img src={img_22_2} alt="Lösung Tag 22"/></p>
+                <p className="card-text">Du entnimmst der mit &bdquo;Äpfel und Birnen&ldquo; etikettierten Kiste eine Frucht. Da alle Kisten falsch etikettiert sind, weißt du nun, dass es sich entweder um die Äpfel- oder die Birnenkiste handelt - je nachdem, welche Frucht du der Kiste entnimmst. Ist es die Äpfelkiste, weißt du gleichzeitig, dass die mit &bdquo;Äpfel&ldquo; etikettierte Kiste Birnen enthält; ist es die Birnenkiste, enthält die mit &bdquo;Birnen&ldquo; etikettierte Kiste Äpfel (sonst wäre eine Kiste richtig etikettiert). Somit kennst du zum Schluss auch die Kiste , die Äpfel und Birnen enthält. </p>
               </div>
 // -----------------------------------23---------------------------------//
-
+question_23 =  <div>
+                <p className="card-text">Jennifer, Siegfried und Dieter trinken Tee.</p>
+                <p className="card-text">Petra, Friedrich, und Marianne trinken Orangensaft.</p>
+                <p className="card-text font-weight-bold">Ermittle die jeweilige Gemeinsamkeit und finde heraus, was Alexander trinkt!</p>
+                <p className="text-center"><img src={img_23_1} alt="Aufgabe Tag 23"/></p>
+              </div>;
+answer_23 =    <div>
+                <p className="card-text">Alexander trinkt Tee, denn wie die Namen Jennifer, Siegfried und Dieter enthält auch sein Name zwei &bdquo;e&ldquo;.</p>
+                <p className="text-center"><img src={img_23_2} alt="Lösung Tag 23"/></p>
+              </div>
 // -----------------------------------24---------------------------------//
-question_24 =
-  <div>
-     <div className="flip-card-front">
-       <p className="card-text">Sie sehen einen Würfel und eine Drehachse, die durch den Würfel verläuft. Drehen Sie nun den Würfel in Gedanken zweimal um 90° im Uhrzeigersinn.</p>
-       <p className="card-text font-weight-bold">Wie sieht dann der Würfel aus?</p>
-       <p className="card-text">Entscheiden Sie sich für eine der vier Möglichkeiten.</p>
-       <p className="text-center"><img src={img_22_1} alt="Aufgabe Tag 22"/></p>
-     </div>
-     <div className="flip-card-back">
-       <p className="card-text">Nach zweimaliger Drehung ergibt sich das Bild Nr. 2.</p>
-       <p className="text-center"><img src={img_22_2} alt="Lösung Tag 22"/></p>
-     </div>
- </div>
-;
+question_24 =  <div>
+                <p className="card-text">Vor dir liegen zehn Beutel mit jeweils tausend Geldmünzen. In neun der Beutel befinden sich nur echte Münzen, in einem der Beutel nur Falschmünzen. Du weißt, dass die echten Münzen jeweils genau ein Gramm wiegen, die Falschmünzen hingegen 1,1 Gramm. </p>
+                <p className="card-text font-weight-bold">Nun sollst du mit nur einer Wägung herausfinden, in welchem Beutel die Falschmünzen stecken.</p>
+                <p className="text-center"><img src={img_24_1} alt="Aufgabe Tag 24"/></p>
+              </div>;
+answer_24 =    <div className="text-left">
+                <p className="card-text">Ein unmögliches Unterfangen? Von wegen! Entnimm aus dem ...</p>
+                <ul>
+                  <li>... ersten Beutel keine Münze</li>
+                  <li>... zweiten Beutel eine Münze</li>
+                  <li>... dritten Beutel zwei Münzen</li>
+                  <li>... vierten Beutel drei Münzen usw.</li>
+                </ul>
+                  <p className="card-text">Insgesamt sind es so 45 Münzen, die du auf die Waage legst. Dann weißt du: Bei einem Gesamtgewicht von 45 Gramm befinden sich die Falschmünzen im ersten Beutel, bei 45,1 Gramm im zweiten Beutel, bei 45,2 Gramm im dritten Beutel, bei 45,3 Gramm im vierten Beutel usw.</p>
+              </div>
 
 
 let question_25 = question_1;
